@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html, body {
+    background-color: #000;
+    color: #fff;
+}
+h1 {
+    font-size: 6vw;
+}
+
+.item {
+    border-bottom: 1px solid #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: relative;
+    height: 200px;
+    /* width: 100%; */
+}
+.item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+
+    transition: all linear 0.3s;
+    position: absolute;
+
+    mix-blend-mode: difference;
+
+    opacity: 0;
+    
+}
